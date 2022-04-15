@@ -1,0 +1,19 @@
+Pentru implementarea temei am avut nevoie de 3 clase :
+Tema2  care era data in skel , continand metoda main ,
+iar pe langa aceasta clasele Reduce si Maps.
+
+In clasa Tema2 se face citirea din fisierul de intrare de unde citim
+dimesiunea fragmentelor, numele fisierelor cat si numaru lor, cat si numele fisierului de intrare , 
+celui de iesire si numarul de workeri care reprezinta nr de threaduri.
+
+
+Pentru clasa Maps se citeste din file numarul de biti pentru un fragment 
+continuand sa citeasca pana la primul separator de cuvinte unde se opreste.
+Tot aici se calculeaza numarul cuvintelor din fragment. 
+
+Pentru Reduce , dupa ce toate task urile din Maps s au terminat, 
+avand deja calculate pentru fiecare fisier cuv de lungime max si aparitile acestuia, 
+operatia reduce va calcula rang ul fisierului cu ajutorul formulei date
+
+
+
