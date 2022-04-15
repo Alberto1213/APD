@@ -1,0 +1,17 @@
+In fiecare din cele 3 rank uri se deschide si se citeste fisierul "clusterX.txt" unde X este indicele rank ului
+citindu se numarul de workeri pentru fiecare proces coordonator respectiv indicele workerilo
+
+Procesul 0 va trimite numarul de workeri si fiecare worker insusi catre procesul 2 si va primi prin intermediul procesului 2 \
+numarul de workeri ai lui 2 cat si workeri insusi cat si numarul de workeri ai lui 1 si workeri insusi
+
+tot procesul 0 va trimite rank ul sau catre workeri sai. Isi va trimite si numarul de workeri catre fiecare worker , realizand comunicarea dintre oricare doi workeri ai sai prin intermediul sau.
+Mai mult va face acelasi lucru si pentru workeri lui 1 si 2.
+
+Mai departe printeaza topologia , urmand sa construiasca vectorul dat in cerinta si sa realizeze impartirea fragmentelor pentru realizarea calculelor.
+
+Rank ul 1 si rank ul 2 sunt trate aproximativ in mod analog ,doar ca rank ul 2 are rol de mesager intre 0 si 1 pentru conditia data de bonus , pentru ca rank uril 1 si 0 sa nu comunice direct.
+
+Pentru workeri se vor primi numarul de workeri respectiv workeri de la fiecare rank si realizeaza calculele propiu zise in enunt.
+
+
+PS Am uitat ca tema trebuie incarcata si pe moodle ....se poate verifica ca n am facut alte modificari decat aceasta in README..
